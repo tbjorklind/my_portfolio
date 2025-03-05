@@ -2,6 +2,26 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "@/app/globals.css";
 
+
+// app/layout.tsx
+// import './styles/globals.css';  // Importera globala stilar
+// import Header from './components/Header'; // Importera headern
+
+// export default function RootLayout({
+//   children,
+// }: {
+//   children: React.ReactNode;
+// }) {
+//   return (
+//     <html lang="en">
+//       <body>
+//         <Header /> {/* Lägg till headern här */}
+//         {children} {/* Innehållet från varje sida kommer att renderas här */}
+//       </body>
+//     </html>
+//   );
+// }
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
